@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# EDA tools
+*.vcd
+*.fst
+*.wdb
+simv*
+csrc/
+verdiLog/
+novas*
+*.log
+
+# Outputs
+critical_path*.v
+*.v.bak
+nets.txt
+
+# Dependencies (keep in repo if needed)
+# BOOLEAN_gates.v
+# detailed_timing.txt
+# netlist.v
+
+# OS
+.DS_Store
+Thumbs.db
